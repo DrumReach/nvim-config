@@ -12,6 +12,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'cohama/lexima.vim'	" Auto close paranthesis
 Plug 'metakirby5/codi.vim'
 Plug 'vifm/vifm.vim'	"file manager 
+Plug 'vimwiki/vimwiki'	"vim wiki
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
 
@@ -60,3 +61,5 @@ map <Leader>vs :VsplitVifm<CR>
 map <Leader>sp :SplitVifm<CR>
 map <Leader>dv :DiffVifm<CR>
 map <Leader>tv :TabVifm<CR>
+
+set number relativenumber
