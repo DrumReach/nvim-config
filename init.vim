@@ -118,7 +118,15 @@ require'nvim-treesitter.configs'.setup {
     -- Instead of true it can also be a list of languages
     additional_vim_regex_highlighting = false,
   },
-  incremental_selection = { enable = true },
+  incremental_selection = { 
+  	enable = true, 
+	keymaps = {
+		init_selection = "gnn",
+		node_incremental = "grm",
+		node_decremental = "grn",
+		scope_incremental = "grc",
+		}
+  },
   textobjects = { enable = true },
   indent = {enable = true}
 }
