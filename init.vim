@@ -37,7 +37,7 @@ autocmd Bufenter *.c colorscheme bluewery
 autocmd Bufenter *.wiki colorscheme everforest
 
 autocmd BufWinLeave *.* mkview!
-autocmd BufWinEnter *.* silent loadview
+autocmd BufWinEnter *.* silent! loadview
 
 set termguicolors
 let g:solarized_termcolors=256
