@@ -44,7 +44,9 @@ let g:solarized_termcolors=256
 set clipboard+=unnamedplus
 set number relativenumber
 
+"-------- KEY BINDS --------------
 
+map <esc> :noh <CR>
 
 " -- lightline
 let g:lightline = {'colorscheme': 'nord'}
