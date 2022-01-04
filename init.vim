@@ -35,6 +35,7 @@ colorscheme nord
 
 autocmd Bufenter *.c colorscheme bluewery
 autocmd Bufenter *.wiki colorscheme everforest
+autocmd Bufenter *.py colorscheme iceberg
 
 autocmd BufWinLeave *.* mkview!
 autocmd BufWinEnter *.* silent! loadview
