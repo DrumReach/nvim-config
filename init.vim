@@ -33,9 +33,10 @@ call plug#end()
 
 colorscheme nord
 
-autocmd Bufenter *.c colorscheme bluewery
+"autocmd Bufenter *.c colorscheme bluewery
+autocmd Bufenter *.c colorscheme xcodedark
 autocmd Bufenter *.wiki colorscheme everforest
-autocmd Bufenter *.py colorscheme iceberg
+autocmd Bufenter *.py colorscheme nightfly
 
 autocmd BufWinLeave *.* mkview!
 autocmd BufWinEnter *.* silent! loadview
